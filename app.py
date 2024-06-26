@@ -1,7 +1,7 @@
 # Set up
 import streamlit as st
 import pandas as pd
-import plotly_express as px
+import plotly.express as px
 
 st.header('Histograma y Dispersion en funcion de el kilometraje de un vehiculo')
 
