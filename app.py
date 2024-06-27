@@ -7,7 +7,7 @@ import streamlit as st
 st.header('Histograma y Dispersion en funcion de el kilometraje de un vehiculo')
 
 # Leer los datos del archivo CSV
-car_data = pd.read_csv("./data/vehicles_us.csv") 
+car_data = pd.read_csv("../data/vehicles_us.csv") 
 
 # # Crear checkboxes para construir el histograma y el gráfico de dispersión
 build_histogram = st.checkbox('Construir un histograma')
