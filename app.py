@@ -32,3 +32,9 @@ if build_scatter:
 
     # Mostrar gráfico plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
+
+    # Caja desplegable
+    bar = st.selectbox('select', car_data['type'].unique())
+
+    st.dataframe(car_data)
+    
